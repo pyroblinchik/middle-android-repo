@@ -21,6 +21,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".xmlCustomView.XmlCustomViewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AndroidPracticumCustomView">
+        </activity>
+        <activity
+            android:name=".ui.theme.ComposeCustomViewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AndroidPracticumCustomView">
+        </activity>
     </application>
 
 </manifest>

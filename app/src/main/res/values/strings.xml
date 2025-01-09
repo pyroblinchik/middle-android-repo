@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">android practicum custom view</string>
+    <string name="compose_custom_view">Compose custom view</string>
+    <string name="xml_custom_view">Xml custom view</string>
+    <string name="first_element">First element</string>
+    <string name="second_element">Second element</string>
+    <string name="third_element">Third element</string>
 </resources>
