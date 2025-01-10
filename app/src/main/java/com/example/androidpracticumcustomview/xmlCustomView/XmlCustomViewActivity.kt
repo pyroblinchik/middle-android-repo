@@ -33,10 +33,5 @@ class XmlCustomViewActivity : ComponentActivity() {
         customContainer.addView(firstView)
         customContainer.addView(secondView)
 //        customContainer.addView(thirdView)
-
-        // Добавление второго элемента через некоторое время
-//        Handler(Looper.getMainLooper()).postDelayed({
-//            customContainer.addView(secondView)
-//        }, 2000)
     }
 }

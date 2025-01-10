@@ -109,6 +109,7 @@ class CustomContainer @JvmOverloads constructor(
         child.animate()
             .alpha(1f)
             .setDuration(alphaAnimationDuration.toLong())
+            .start()
 
         val screenHeight = resources.displayMetrics.heightPixels
         if(indexOfChild(child) == 0){
