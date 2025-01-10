@@ -54,10 +54,6 @@ class CustomContainer @JvmOverloads constructor(
         }
     }
 
-    override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec)
-    }
-
     override fun onLayout(changed: Boolean, left: Int, top: Int, right: Int, bottom: Int) {
         for (i in 0 until childCount) {
             val child = getChildAt(i)
